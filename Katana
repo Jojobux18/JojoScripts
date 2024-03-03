@@ -1,0 +1,4 @@
+_G.Jojo_BR = true 
+while _G.Jojo_BR do wait(0.23)if _G.Jojo_BR == false then return end
+game:GetService("Players").LocalPlayer.Character.Katana.Attack:FireServer()
+end
